@@ -40,6 +40,18 @@
         <toc-element topic="Laravel-Tutorial.md"/>
         <toc-element topic="unittest.md"/>
     </toc-element>
+    <toc-element topic="Python.md">
+        <toc-element topic="python-basic.md">
+            <toc-element topic="The-Zen-of-Python.md"/>
+            <toc-element topic="Hello-World-In-Python.md"/>
+            <toc-element topic="Virtual-Environment.md"/>
+            <toc-element topic="python-syntax.md"/>
+        </toc-element>
+        <toc-element topic="Advanced.md">
+            <toc-element topic="How-the-Python-Interpreter-Works.md"/>
+            <toc-element topic="Functions-are-First-Class-Citizens.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Linux.md">
         <toc-element topic="linux-basic.md">
             <toc-element topic="About-Linux.md"/>

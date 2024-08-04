@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: 'zenith-docs/ch'
-  ARTIFACT: 'zenith-docsCH2-all.zip'
+  ARTIFACT: 'webHelpCH2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:

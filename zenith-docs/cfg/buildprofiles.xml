@@ -6,7 +6,7 @@
     <variables></variables>
     <build-profile instance="ch">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
     <build-profile instance="ch">

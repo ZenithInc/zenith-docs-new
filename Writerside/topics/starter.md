@@ -8,8 +8,6 @@
 
 联系邮箱: happy@hacking.icu
 
-联系微信: hacking-happy
-
 ## 排版规范
 
 本开源知识库遵循 [中文排版指南](https://github.com/mzlogin/chinese-copywriting-guidelines) 规范。

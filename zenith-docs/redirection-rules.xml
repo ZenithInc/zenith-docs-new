@@ -10,4 +10,8 @@
         <description>Created after removal of "Lamdba" from Instance Name</description>
         <accepts>Lamdba.html</accepts>
     </rule>
+    <rule id="15e56fd3">
+        <description>Created after removal of "设计模式" from zenith-docs</description>
+        <accepts>Go-Design-Parttern.html</accepts>
+    </rule>
 </rules>

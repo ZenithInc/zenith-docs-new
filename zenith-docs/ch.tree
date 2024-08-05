@@ -12,6 +12,53 @@
         <toc-element topic="variables-in-c.md"/>
         <toc-element topic="Operator-in-C.md"/>
     </toc-element>
+    <toc-element topic="Go.md">
+        <toc-element topic="go-basic.md">
+            <toc-element topic="Runtime.md"/>
+            <toc-element topic="about-go.md"/>
+            <toc-element topic="Hello-World.md"/>
+            <toc-element topic="Go-Strings.md"/>
+            <toc-element topic="arrays-slices.md"/>
+            <toc-element topic="conditions-loops.md"/>
+            <toc-element topic="How-are-Go-programs-executed.md"/>
+            <toc-element topic="Modules.md"/>
+        </toc-element>
+        <toc-element topic="Concurrent-programming.md">
+            <toc-element topic="How-Goroutines-Run.md"/>
+            <toc-element topic="go-memory.md"/>
+            <toc-element topic="Go-Channel.md"/>
+            <toc-element topic="Go-Lock.md"/>
+        </toc-element>
+        <toc-element topic="Go-Pattern.md">
+            <toc-element topic="function-options.md"/>
+            <toc-element topic="singleton-in-go.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Linux.md">
+        <toc-element topic="linux-basic.md">
+            <toc-element topic="About-Linux.md"/>
+            <toc-element topic="The-History-and-Philosophy-of-Linux.md"/>
+            <toc-element topic="How-commands-are-executed.md"/>
+            <toc-element topic="VIM.md"/>
+            <toc-element topic="Tmux.md"/>
+            <toc-element topic="file-system.md"/>
+            <toc-element topic="timer.md"/>
+        </toc-element>
+        <toc-element topic="Shell.md">
+            <toc-element topic="variables.md"/>
+            <toc-element topic="Redirection-and-Pipes.md"/>
+            <toc-element topic="exit-code.md"/>
+            <toc-element topic="branching.md"/>
+            <toc-element topic="loops.md"/>
+            <toc-element topic="String-in-Shell.md"/>
+            <toc-element topic="Command-Substitution-in-Linux.md"/>
+            <toc-element topic="Shell-math.md"/>
+            <toc-element topic="Shell-Functions.md"/>
+            <toc-element topic="linux-signals.md"/>
+            <toc-element topic="Sed.md"/>
+            <toc-element topic="Awk.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Java.md">
         <toc-element topic="basic.md">
             <toc-element topic="variable-types.md"/>
@@ -44,6 +91,7 @@
         <toc-element topic="using-docker.md"/>
         <toc-element topic="Laravel-Tutorial.md"/>
         <toc-element topic="unittest.md"/>
+        <toc-element topic="middlewares-in-laravel.md"/>
     </toc-element>
     <toc-element topic="Python.md">
         <toc-element topic="python-basic.md">
@@ -55,32 +103,6 @@
         <toc-element topic="Advanced.md">
             <toc-element topic="How-the-Python-Interpreter-Works.md"/>
             <toc-element topic="Functions-are-First-Class-Citizens.md"/>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="Linux.md">
-        <toc-element topic="linux-basic.md">
-            <toc-element topic="About-Linux.md"/>
-            <toc-element topic="The-History-and-Philosophy-of-Linux.md"/>
-            <toc-element topic="How-commands-are-executed.md"/>
-            <toc-element topic="VIM.md"/>
-            <toc-element topic="Tmux.md"/>
-            <toc-element topic="file-system.md"/>
-            <toc-element topic="timer.md"/>
-        </toc-element>
-        <toc-element topic="Shell.md">
-            <toc-element topic="variables.md"/>
-            <toc-element topic="Redirection-and-Pipes.md"/>
-            <toc-element topic="exit-code.md"/>
-            <toc-element topic="branching.md"/>
-            <toc-element topic="loops.md"/>
-            <toc-element topic="String-in-Shell.md"/>
-            <toc-element topic="Command-Substitution-in-Linux.md">
-            </toc-element>
-            <toc-element topic="Shell-math.md"/>
-            <toc-element topic="Shell-Functions.md"/>
-            <toc-element topic="linux-signals.md"/>
-            <toc-element topic="Sed.md"/>
-            <toc-element topic="Awk.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>

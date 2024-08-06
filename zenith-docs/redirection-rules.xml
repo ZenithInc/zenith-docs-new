@@ -14,4 +14,8 @@
         <description>Created after removal of "设计模式" from zenith-docs</description>
         <accepts>Go-Design-Parttern.html</accepts>
     </rule>
+    <rule id="75798a92">
+        <description>Created after removal of "领域驱动设计" from zenith-docs</description>
+        <accepts>领域驱动设计.html</accepts>
+    </rule>
 </rules>

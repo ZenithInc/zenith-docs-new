@@ -59,6 +59,18 @@
             <toc-element topic="Awk.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="Nginx.md">
+        <toc-element topic="The-architecture-of-nginx.md"/>
+        <toc-element topic="nginx-basic.md"/>
+        <toc-element topic="Brotli.md"/>
+        <toc-element topic="log-rotation.md"/>
+        <toc-element topic="stub_status.md"/>
+        <toc-element topic="GoAccess.md"/>
+        <toc-element topic="OpenResty.md"/>
+        <toc-element topic="load-balancing.md"/>
+        <toc-element topic="LVS.md"/>
+        <toc-element topic="Keepalived-HA.md"/>
+    </toc-element>
     <toc-element topic="Java.md">
         <toc-element topic="basic.md">
             <toc-element topic="variable-types.md"/>

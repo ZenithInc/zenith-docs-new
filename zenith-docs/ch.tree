@@ -70,6 +70,9 @@
             <toc-element topic="singleton-in-go.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="Rust.md">
+        <toc-element topic="rust-basic.md"/>
+    </toc-element>
     <toc-element topic="Linux.md">
         <toc-element topic="linux-basic.md">
             <toc-element topic="About-Linux.md"/>

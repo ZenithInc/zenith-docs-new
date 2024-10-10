@@ -67,3 +67,29 @@ mindmap
 </code-block>
 
 很多命令，其实现都依赖于`/proc` 目录中的数据，比如 `ps` 、`top` 、`free` 等。
+
+### 磁盘的状态 {id="state"}
+
+我们可以使用 `iostat` 命令来查看磁盘的状态:
+```shell
+# iostat -h
+Linux 5.15.0-86-generic (tizi)  10/09/2024      _x86_64_        (48 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.9%    0.0%    0.1%    0.2%    0.0%   98.6%
+
+      tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd Device
+     3.19        11.7k        83.4k        59.9k      19.4G     137.8G      99.0G dm-0
+     0.00         0.0k         0.0k         0.0k       4.5M       0.0k       0.0k loop0
+     0.00         0.0k         0.0k         0.0k       3.9M       0.0k       0.0k loop1
+     0.00         0.0k         0.0k         0.0k      29.5M       0.0k       0.0k loop2
+     0.00         0.0k         0.0k         0.0k      22.3M       0.0k       0.0k loop3
+     0.00         0.0k         0.0k         0.0k       4.1M       0.0k       0.0k loop4
+     0.00         0.0k         0.0k         0.0k       2.5M       0.0k       0.0k loop5
+     0.00         0.0k         0.0k         0.0k      39.1M       0.0k       0.0k loop6
+     0.00         0.0k         0.0k         0.0k      10.0k       0.0k       0.0k loop7
+     0.00         0.0k         0.0k         0.0k       1.5k       0.0k       0.0k sr0
+     2.92        11.8k        83.7k        61.4k      19.5G     138.3G     101.4G vda
+   107.61       170.0k         1.4M       880.1k     280.9G       2.3T       1.4T vdb
+     1.55       260.8k       262.8k         3.5M     431.0G     434.3G       5.8T vdc
+```

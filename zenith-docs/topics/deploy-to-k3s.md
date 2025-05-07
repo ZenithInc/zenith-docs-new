@@ -286,7 +286,7 @@ $ kubectl apply -f registry-deployment.yaml
 ### 1. 编写代码 ###
 
 这个项目以来 Tokio 和 Axum 两个框架，依赖如下：
-```toml
+```
 [dependencies]
 tokio ={ version = "1.44.2", features = ["full"] }
 axum = "0.8.4"

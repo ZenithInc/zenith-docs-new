@@ -71,6 +71,7 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Rust.md">
+        <toc-element topic="deploy-to-k3s.md"/>
         <toc-element topic="rust-basic.md"/>
         <toc-element topic="rust-strings.md"/>
         <toc-element topic="Axum.md"/>

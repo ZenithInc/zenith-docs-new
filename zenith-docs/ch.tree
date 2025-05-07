@@ -71,6 +71,7 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Rust.md">
+        <toc-element topic="rust-async-runtime.md"/>
         <toc-element topic="rust-basic.md"/>
         <toc-element topic="pointer.md"/>
         <toc-element topic="lifttimes.md"/>
